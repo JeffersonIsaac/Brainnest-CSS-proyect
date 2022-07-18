@@ -1,0 +1,13 @@
+.proyectFront__titleMedia{
+    animation-name: slideInLeft;
+
+}
+@keyframes slideInLeft {
+    0% { left: 0;
+
+    }
+
+    100% {
+        left: 100%;
+    }
+}

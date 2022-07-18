@@ -1,0 +1,178 @@
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-thin";
+    src: url(./fonts/Roboto/Roboto-Thin.ttf);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    margin-top: 5em;
+}
+.proyectFront{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+.proyectFront__titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    height: 550px;
+    background-image: url(../images/proyect--background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proyectFront__title{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.proyectFront__title p{
+    font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px; 
+}
+.proyectFront__titleMedia{
+    background-image: url(../images/proyect--fineline.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 60%;
+}
+.proyectFront__titleMedia h1 {
+    font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    margin-top: 3.5em;
+    margin-left: -3.5em;
+}
+.proyectFront__discoverContainer{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.proyectFront__mission{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.proyectFront__mission h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4em;
+}
+.proyectFront__mission--Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+;
+
+}
+.proyectFront__mission--textContainer{
+    display: flex;
+    height: 550px;
+    flex-direction: row;
+    justify-content: center;
+}
+.proyectFront__mission--textContainerCard{
+    display: flex;
+    margin-right: 10px;
+    width: 330px;
+}
+.proyect__mission--text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    scroll-snap-align: center;
+}
+.proyectFront__mission--textContainerCard img{
+    display: block;
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.proyect__mission--text p ,
+.proyect__mission--text h3{
+    color: #F8FBFE;
+    position: sticky;
+    top: 0;
+    width: 250px;
+}
+.proyectFront__discoverContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.proyectFront__discoverContainer h1{
+    height: 3em;
+    text-align: center;
+}
+.discover{
+    display: flex;
+    justify-content: center;
+}
+.discover__imgContainer{
+    margin-right: 10px;
+
+
+}
+.discover__imgContainer img{
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.proyectFront__peopleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+}
+.proyectFront__peopleContainer h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4em;
+}
+.proyectFront__people--boxContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.proyectFront__people--box{
+    display: flex;
+    margin-right: 10px;
+    width: 330px;
+    flex-direction: column-reverse;
+}
+.proyectFront__people--box img{
+    display: block;
+    object-fit: cover;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
+.proyect__people--text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    scroll-snap-align: center;
+    text-align: center; 
+}
+.proyect__people--text p ,
+.proyect__people--text h3{
+    color: #F8FBFE;
+    position: sticky;
+    top: 0;
+    width: 250px;
+}
