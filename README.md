@@ -1,2 +1,2 @@
 # CSS-proyect
-https://jeffersonisaac.github.io/CSS-proyect/
+https://jeffersonisaac.github.io/Brainnest-CSS-proyect/
